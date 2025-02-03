@@ -582,6 +582,17 @@ footer {
     height: 30px;
   }
 }
+@media only screen and (max-width: 395px) {
+  .raquetasAccesorios {
+    font-size: 2rem;
+  }
+  .quickLinks {
+    margin-right: 5vw;
+  }
+  .icon {
+    margin-top: 15vw;
+  }
+}
 @media only screen and (max-height: 670px) {
   .acercaNosotrosButton, .historiaButton {
     display: none;
@@ -593,6 +604,11 @@ footer {
     margin-right: 1vw;
     margin-top: 0.2vh;
     gap: 10px;
+  }
+}
+@media only screen and (max-height: 740px) {
+  .acercaNosotrosButton {
+    display: none;
   }
 }
 
